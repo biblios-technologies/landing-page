@@ -14,7 +14,7 @@ const LandingPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen mt-60">
       <Header />
       <main>
         <HeroSection onScrollToContact={scrollToContact} />
