@@ -52,7 +52,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-black hover:bg-black/75 text-white" onClick={() => scrollToSection("contact")}>
+            <Button className="bg-black/85 hover:bg-black/75 text-white" onClick={() => scrollToSection("contact")}>
               Get Started
             </Button>
           </div>
