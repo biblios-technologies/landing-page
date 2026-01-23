@@ -18,7 +18,7 @@ const LandingPage: React.FC = () => {
       <Header />
       <main>
         <HeroSection onScrollToContact={scrollToContact} />
-        <MissionSection />
+        <MissionSection/>
         <SolutionsSection />
         <ContactSection />
       </main>
