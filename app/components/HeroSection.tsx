@@ -28,7 +28,7 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-transparent border border-black/20 rounded-full px-4 py-2 mb-8 animate-fade-up">
             <span className="text-sm font-medium text-[#30b7f9]/75">
-              Technology for the Kingdom
+              Restoring Biblical Christianity
             </span>
           </div>
 
