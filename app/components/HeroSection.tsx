@@ -97,11 +97,11 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
               className="text-[#30b7f9]/75 bg-white/40 border-[#30b7f9]/75 hover:bg-[#30b7f9]/75 hover:text-white"
               onClick={() =>
                 document
-                  .getElementById("mission")
+                  .getElementById("story")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
             >
-              Learn Our Mission
+              Share Your Story
             </Button>
           </div>
         </div>

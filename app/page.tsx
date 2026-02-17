@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection";
 import MissionSection from "./components/MissionSection";
 import SolutionsSection from "./components/SolutionsSection";
 import ContactSection from "./components/ContactSection";
+import TellUsYourStorySection from "./components/TellUsYourStorySection";
 import Footer from "./components/Footer";
 
 const LandingPage: React.FC = () => {
@@ -21,6 +22,7 @@ const LandingPage: React.FC = () => {
         <MissionSection/>
         <SolutionsSection />
         <ContactSection />
+        <TellUsYourStorySection/>
       </main>
       <Footer />
     </div>

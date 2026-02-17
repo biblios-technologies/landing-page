@@ -14,7 +14,7 @@ const ContactCardActions = () => {
       <div className="space-y-3">
         <h3 className="text-2xl font-semibold">Connect Here</h3>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Book a time to chat or reach out directly to the founder. We’d love to
+          Leaders book a time to chat or reach out directly to the founder. We’d love to
           hear about your church and how we can serve you.
         </p>
       </div>

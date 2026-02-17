@@ -5,15 +5,15 @@ const solutions = [
     icon: Database,
     title: "Sermon Search Engine",
     description:
-      "Improving access to sermons, teachings, and resources through powerful search capabilities.",
-    features: ["Website search tool", "Summarizing sermons", "Giving platforms"],
+      "Improving access to sermons, teachings, and resources through powerful search capabilities to tranform church websites into teaching libraries.",
+    features: ["Sermon Accessibility", "Website search tool", "Summarizing sermons"],
   },
   {
     icon: BarChart3,
-    title: "Ministry Analytics",
+    title: "Church Analytics",
     description:
-      "Gain insights into your church's health and growth to make Spirit-led, data-informed decisions.",
-    features: ["Growth metrics", "Engagement tracking", "Reporting tools"],
+      "Gain insights into your church's needs in order to make Spirit-led, data-informed decisions.",
+    features: ["Spiritual Needs", "Engagement tracking", "Reporting tools"],
   },
 ];
 
