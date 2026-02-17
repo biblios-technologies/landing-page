@@ -21,8 +21,8 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
       <div className="container mx-auto px-4 pt-10 pb-16 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-transparent border border-black/20 rounded-full px-4 py-2 mb-8 animate-fade-up">
-            <span className="text-sm font-medium text-[#30b7f9]/75">
+          <div className="inline-flex items-center gap-2 bg-transparent border border-black/20 rounded-full px-3 py-1.5 sm:px-4 sm:py-2 mb-6 md:mb-8 animate-fade-up">
+            <span className="text-xs sm:text-sm md:text-base font-medium text-[#30b7f9]/75">
               Restoring Biblical Christianity
             </span>
           </div>
@@ -34,7 +34,7 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
                   src={BibliosLogo}
                   alt="Biblios Logo"
                   className="
-                    w-56
+                    w-72
                     sm:w-72
                     md:w-[420px]
                     lg:w-[600px]
@@ -57,19 +57,20 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
           </div>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-lg text-black/50 max-w-2xl mx-auto mb-10 mt-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <p className="text-base sm:text-md md:text-xl text-black/50 max-w-2xl mx-auto mb-8 md:mb-10 mt-4 md:mt-6 px-2 animate-fade-up">
             We build purposeful technology that helps disciples grow, churches
             thrive, and the Gospel advance to the ends of the earth.
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button className="bg-[#30b7f9]/75 hover:bg-[#30b7f9]/80 text-white" onClick={onScrollToContact}>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <Button
+              className="text-[#30b7f9]/75 bg-white/40 border-[#30b7f9]/75 hover:bg-[#30b7f9]/75 hover:text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3" onClick={onScrollToContact}>
               Connect With Us
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button
-              className="text-[#30b7f9]/75 bg-white/40 border-[#30b7f9]/75 hover:bg-[#30b7f9]/75 hover:text-white"
+              className="bg-[#30b7f9]/75 hover:bg-[#30b7f9]/80 text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3"
               onClick={() =>
                 document
                   .getElementById("story")
