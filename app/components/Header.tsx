@@ -22,8 +22,14 @@ const Header = () => {
                 <img
                   src={b1}
                   alt="Biblios Logo"
-                  width={50}
-                  />
+                  className="
+                    w-6
+                    sm:w-10
+                    md:w-[40px]
+                    lg:w-[50px]
+                    h-auto
+                  "
+                />
               </a>
             </div>
           </div>
