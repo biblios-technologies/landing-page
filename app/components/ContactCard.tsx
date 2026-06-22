@@ -12,10 +12,11 @@ const ContactCardActions = () => {
     <div className="bg-card rounded-3xl p-8 md:p-12 shadow-elevated text-center space-y-8">
 
       <div className="space-y-3">
-        <h3 className="text-2xl font-semibold">Connect Here</h3>
+        <h3 className="text-2xl font-semibold">Start with a 15-minute call</h3>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Leaders book a time to chat or reach out directly to the founder. We’d love to
-          hear about your church and how we can serve you.
+          Book a time to chat or text the founder directly. It's a no-pressure
+          conversation about your business and where automation could help — not a
+          pitch. You'll talk to Gabbi, who builds the automations herself.
         </p>
       </div>
 

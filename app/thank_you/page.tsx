@@ -7,9 +7,9 @@ const ThankYouPage: React.FC = () => {
         <h1 className="text-3xl font-bold mb-4">Thank You 💛</h1>
 
         <p className="text-gray-600 mb-6">
-          We received your story and are grateful you shared it with us.
-          Your testimony encourages others and helps build God's kingdom
-          through technology.
+          We got your message and we're excited to learn more about your
+          business. Gabbi will be in touch soon to set up a quick,
+          no-pressure call.
         </p>
 
         <a

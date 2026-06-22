@@ -23,7 +23,7 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-transparent border border-black/20 rounded-full px-3 py-1.5 sm:px-4 sm:py-2 mb-6 md:mb-8 animate-fade-up">
             <span className="text-xs sm:text-sm md:text-base font-medium text-[#30b7f9]/75">
-              Restoring Biblical Christianity
+              AI Automation for Small Businesses & Churches
             </span>
           </div>
 
@@ -58,26 +58,27 @@ const HeroSection = ({ onScrollToContact }: HeroSectionProps) => {
 
           {/* Subheadline */}
           <p className="text-base sm:text-md md:text-xl text-black/50 max-w-2xl mx-auto mb-8 md:mb-10 mt-4 md:mt-6 px-2 animate-fade-up">
-            We build purposeful technology that helps disciples grow, churches
-            thrive, and the Gospel advance to the ends of the earth.
+            We build custom AI automation for small businesses and churches — the
+            boring, repetitive work handled automatically, so you get your time
+            back and never let a good lead slip away.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <Button
-              className="text-[#30b7f9]/75 bg-white/40 border-[#30b7f9]/75 hover:bg-[#30b7f9]/75 hover:text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3" onClick={onScrollToContact}>
-              Connect With Us
+              className="bg-[#30b7f9]/75 hover:bg-[#30b7f9]/80 text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3" onClick={onScrollToContact}>
+              Book a free 15-min call
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button
-              className="bg-[#30b7f9]/75 hover:bg-[#30b7f9]/80 text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3"
+              className="text-[#30b7f9]/75 bg-white/40 border-[#30b7f9]/75 hover:bg-[#30b7f9]/75 hover:text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3"
               onClick={() =>
                 document
-                  .getElementById("story")
+                  .getElementById("solutions")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
             >
-              Share Your Story
+              See what we build
             </Button>
           </div>
         </div>

@@ -40,13 +40,13 @@ const Header = () => {
               onClick={() => scrollToSection("mission")}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Our Mission
+              How It Works
             </button>
             <button
               onClick={() => scrollToSection("solutions")}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Solutions
+              What We Do
             </button>
             <button
               onClick={() => scrollToSection("contact")}
@@ -84,13 +84,13 @@ const Header = () => {
                 onClick={() => scrollToSection("mission")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-left"
               >
-                Our Mission
+                How It Works
               </button>
               <button
                 onClick={() => scrollToSection("solutions")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-left"
               >
-                Solutions
+                What We Do
               </button>
               <button
                 onClick={() => scrollToSection("contact")}

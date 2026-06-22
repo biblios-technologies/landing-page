@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import MissionSection from "./components/MissionSection";
 import SolutionsSection from "./components/SolutionsSection";
+import ProofSection from "./components/ProofSection";
 import ContactSection from "./components/ContactSection";
 import TellUsYourStorySection from "./components/TellUsYourStorySection";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ const LandingPage: React.FC = () => {
         <HeroSection onScrollToContact={scrollToContact} />
         <MissionSection/>
         <SolutionsSection />
+        <ProofSection />
         <ContactSection />
         <TellUsYourStorySection/>
       </main>

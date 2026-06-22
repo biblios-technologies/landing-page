@@ -1,19 +1,33 @@
-import { Smartphone, Database, MessageCircle, BarChart3, Check } from "lucide-react";
+import { Zap, Inbox, CalendarCheck, Database, Check } from "lucide-react";
 
 const solutions = [
   {
-    icon: Database,
-    title: "Sermon Search Engine",
+    icon: Zap,
+    title: "Lead Follow-Up",
     description:
-      "Improving access to sermons, teachings, and resources through powerful search capabilities to tranform church websites into teaching libraries.",
-    features: ["Sermon Accessibility", "Website search tool", "Summarizing sermons"],
+      "Reply to and chase every inbound lead fast — before it goes cold. We qualify them and book the ready ones straight onto your calendar.",
+    features: ["Instant first response", "Automatic qualifying", "Booked, not just captured"],
   },
   {
-    icon: BarChart3,
-    title: "Church Analytics",
+    icon: Inbox,
+    title: "Inquiry Response",
     description:
-      "Gain insights into your church's needs in order to make Spirit-led, data-informed decisions.",
-    features: ["Spiritual Needs", "Engagement tracking", "Reporting tools"],
+      "Catch buyer, seller, and customer messages across forms, email, and SMS and respond automatically — so nothing waits in an inbox.",
+    features: ["Forms, email & SMS", "Always-on replies", "Human-sounding, on-brand"],
+  },
+  {
+    icon: CalendarCheck,
+    title: "Scheduling",
+    description:
+      "Turn interest into booked calls and appointments without the back-and-forth. The automation handles the scheduling for you.",
+    features: ["No more phone tag", "Calendar sync", "Fewer no-shows"],
+  },
+  {
+    icon: Database,
+    title: "Data Entry & Busywork",
+    description:
+      "The repetitive tasks that eat your day — handled automatically. We take the manual work off your plate so you can focus on the business.",
+    features: ["Repetitive tasks automated", "Fewer mistakes", "Hours back each week"],
   },
 ];
 
@@ -24,21 +38,21 @@ const SolutionsSection = () => {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-sm font-semibold text-black/60 uppercase tracking-wider">
-            Our Solutions
+            What We Do
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#30b7f9] mt-4 mb-6">
-            Technology That Serves Your Ministry
+            Automation built around your workflow
           </h2>
           <p className="text-lg text-black/60">
-            We don't believe in one-size-fits-all. Every church has unique needs
-            and callings. We partner with you to build solutions that fit your
-            vision.
+            You already generate more leads and inquiries than you can personally
+            keep up with. The gap isn't getting them — it's following up with every
+            one. Here's how we close that gap.
           </p>
         </div>
 
         {/* Solutions Grid */}
         <div className="grid md:grid-cols-2 gap-8">
-          {solutions.map((solution, index) => (
+          {solutions.map((solution) => (
             <div
               key={solution.title}
               className="group bg-card rounded-2xl p-8 shadow-soft hover:shadow-elevated transition-all duration-300 border border-border"

@@ -24,12 +24,15 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Scripture */}
+        {/* Tagline + Scripture */}
         <div className="mt-8 pt-8 border-t border-black/10 text-center">
-          <p className="text-black/40 text-sm italic">
-            "He is the one we proclaim, admonishing and teaching everyone with all wisdom, so that we may present everyone fully mature in Christ."
+          <p className="text-black/50 text-sm">
+            Custom AI automation for small businesses and churches.
           </p>
-          <p className="text-[#30b7f9]/60 text-xs mt-2">— Colossians 1:28</p>
+          <p className="text-black/40 text-sm italic mt-4">
+            "Whatever you do, work at it with all your heart, as working for the Lord."
+          </p>
+          <p className="text-[#30b7f9]/60 text-xs mt-2">— Colossians 3:23</p>
         </div>
       </div>
     </footer>

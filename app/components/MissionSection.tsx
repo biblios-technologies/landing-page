@@ -1,23 +1,23 @@
-import { Waves, BookOpen, Church } from "lucide-react";
+import { Wrench, Sparkles, PhoneCall } from "lucide-react";
 
 const values = [
   {
-    icon: Waves,
-    title: "Biblical Conversions",
+    icon: Wrench,
+    title: "Custom, not off-the-shelf",
     description:
-      "Our mission is to make disciples of all nations. We want people to know the truth and have a biblical conversion that aligns with scripture.",
+      "We look at your specific business — how leads come in, where they stall — and build to that. No software you have to learn and run yourself.",
   },
   {
-    icon: BookOpen,
-    title: "Biblical Literacy",
+    icon: Sparkles,
+    title: "Done-for-you",
     description:
-      "We are committed to equipping every disciple with tools to grow in their understanding and application of Scripture."
+      "We build it, wire it up, and run it. The automation plugs into how you already work, so you're never stuck managing tools.",
   },
   {
-    icon: Church,
-    title: "Biblical Churches",
+    icon: PhoneCall,
+    title: "Starts with a short call",
     description:
-      "We partner with local churches to understand their unique challenges and create tools that truly serve their mission.",
+      "Every engagement begins with a no-pressure 15-minute conversation about your needs — not a pitch. We listen first, then build.",
   },
 ];
 
@@ -28,14 +28,16 @@ const MissionSection = () => {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-sm font-semibold text-black/60 uppercase tracking-wider">
-            Our Mission
+            How We Work
           </span>
-          <h2 className="ext-3xl md:text-4xl lg:text-5xl font-bold text-[#30b7f9] mt-4 mb-6">
-            Building for the Body of Christ
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#30b7f9] mt-4 mb-6">
+            You're the bottleneck. We fix that.
           </h2>
           <p className="text-lg text-black/60">
-            At Biblios Technologies, we believe technology should be a tool to bring people to God. We're a team of disciples dedicated to
-            creating tools that empower churches and disciples to live faithfully until the end.
+            New leads land on one desk. Inquiries sit in an inbox while you're out
+            doing the actual work, and good prospects drift to whoever answered
+            first. Hiring for it is slow and expensive. We automate the
+            follow-through so nothing slips — and you stop being the bottleneck.
           </p>
         </div>
 
