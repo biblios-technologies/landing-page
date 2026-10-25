@@ -1,34 +1,15 @@
-'use client';
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import BiblePage from "./pages/BiblePage";
 
-import React, { useEffect, useRef } from 'react';
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import MissionSection from "./components/MissionSection";
-import SolutionsSection from "./components/SolutionsSection";
-import ProofSection from "./components/ProofSection";
-import ContactSection from "./components/ContactSection";
-import TellUsYourStorySection from "./components/TellUsYourStorySection";
-import Footer from "./components/Footer";
+const App = () => (
+  <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/biblios-bible" element={<BiblePage />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
+  </BrowserRouter>
+);
 
-const LandingPage: React.FC = () => {
-  const scrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <HeroSection onScrollToContact={scrollToContact} />
-        <MissionSection/>
-        <SolutionsSection />
-        <ProofSection />
-        <ContactSection />
-        <TellUsYourStorySection/>
-      </main>
-      <Footer />
-    </div>
-  );
-};
-
-export default LandingPage;
+export default App;

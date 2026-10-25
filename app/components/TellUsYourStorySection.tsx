@@ -3,10 +3,11 @@ import React, { useState } from "react";
 const TellUsYourStorySection: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const formData = new FormData(e.target);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
     await fetch("https://formsubmit.co/ajax/hello@bibliostechnologies.com", {
       method: "POST",
@@ -14,7 +15,7 @@ const TellUsYourStorySection: React.FC = () => {
     });
 
     setSubmitted(true);
-    e.target.reset();
+    form.reset();
   };
 
   return (
